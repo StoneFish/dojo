@@ -27,10 +27,10 @@ class EnergySource {
         }, 1, TimeUnit.SECONDS)
     }
 
+
     def stopEnergySource() = atomic {
         implicit txn => keepRunning.swap(false)
     }
-
 
     def getUnitsAvailable() = atomic {
         implicit txn => level.get

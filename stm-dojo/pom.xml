@@ -13,7 +13,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <scala.version>2.11.0-M2</scala.version>
+        <scala.version>2.10.0</scala.version>
         <xmemcached.version>1.4.3</xmemcached.version>
         <commons-lang.version>2.6</commons-lang.version>
         <akka-actor.version>2.2.3</akka-actor.version>

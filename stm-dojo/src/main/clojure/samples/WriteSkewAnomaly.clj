@@ -19,7 +19,7 @@
 (future (withdraw-account checking-balance savings-balance 100))
 (future (withdraw-account savings-balance checking-balance 100))
 
-(. Thread sleep 1000)
+(. Thread sleep 1500)
 
 (println "checking-balance is" @checking-balance)
 (println "savings-balance is" @savings-balance)
